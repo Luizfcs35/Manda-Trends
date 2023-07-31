@@ -5,17 +5,19 @@
   font-family: "Roboto", sans-serif;
   justify-content: center;
   align-items: center;
-  
+  max-width: 1024px;
 }
 
 :root {
- --first: linear-gradient(-45deg, rgb(68, 21, 161), rgb(250,113,50));
- --second: linear-gradient(-45deg, rgb(68, 21, 161), rgb(15, 212, 202));
- --third: linear-gradient(-45deg, rgb(47, 161, 21), rgb(15, 212, 202));
- --fourth: linear-gradient(-45deg, rgb(248,98,134), rgb(250,113,50));
+ --colors-first: linear-gradient(-45deg, rgb(68, 21, 161), rgb(250,113,50));
+ --colors-second: linear-gradient(-45deg, rgb(68, 21, 161), rgb(15, 212, 202));
+ --colors-third: linear-gradient(-45deg, rgb(47, 161, 21), rgb(15, 212, 202));
+ --colors-title: linear-gradient(-45deg, rgb(165, 12, 86), rgb(233, 93, 29));
+ --colors-footer: rgb(233, 93, 29);
 }
 
 span {
+  width: 100%;
   text-align: start;
   font-weight: 700;
   font-size: .5em;
@@ -39,6 +41,7 @@ h1 {
 }
 
 p {
+  width: 100%;
   color: #9a9999;
   font-weight: 500;
   font-size: .75em;

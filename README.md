@@ -26,4 +26,4 @@ Faça upload acessando o formulário pelo link: https://mandabem.mandarin.com.br
 
 Trabalho finalizado ☕.
 
-![Página Final](./assets/images/imagem-mandatrends.png)
+![Página Final](assets/images/imagem-mandatrends.PNG)

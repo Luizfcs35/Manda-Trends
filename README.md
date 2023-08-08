@@ -22,3 +22,8 @@ Faça upload acessando o formulário pelo link: https://mandabem.mandarin.com.br
 `Fique atento ao prazo: Você tem até 25/08/2023 para nos enviar o teste concluído. Não deixe para última hora, ein?`
 
 ### **Boa sorte!**
+
+
+Trabalho finalizado ☕.
+
+![Página Final](./assets/images/imagem-mandatrends.png)

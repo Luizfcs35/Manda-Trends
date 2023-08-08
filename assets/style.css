@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 300px) {
   body {
-    height: auto;
+    height: 100vh;
     max-width: 1024px;
     background-color: #fff;
   }
@@ -59,7 +59,6 @@
   .container .main {
     max-width: 100%;
     margin: 1em 1em 0;
-    
   }
 
   .main .content-main {
@@ -93,9 +92,8 @@
     flex-direction: column;
     max-width: 100%;
     height: auto;
-    gap: .25em;
+    gap: 0.25em;
     margin: 1em;
-    
   }
 
   .secondary .numberOne img {
@@ -213,7 +211,6 @@
     object-fit: fill;
     object-position: center;
   }
- 
 }
 
 @media screen and (min-width: 668px) {
@@ -221,10 +218,9 @@
     min-height: 14vh;
   }
 
-   .container .main {
+  .container .main {
     margin: 1.75em;
     max-width: 100%;
-    gap: 1em;
   }
 
   .main .content-main img {
@@ -232,7 +228,6 @@
     max-height: auto;
     object-fit: cover;
     object-position: right;
-
   }
 
   .container .secondary {
@@ -244,17 +239,17 @@
 
   .secondary .numberOne {
     height: auto;
-    gap: .25em;
+    gap: 0.5em;
     margin: 0;
   }
   .secondary .numberTwo {
     height: auto;
-    gap: .25em;
+    gap: 0.5em;
     margin: 0;
   }
 
   .secondary .numberOne img {
-    max-width: 45vw;
+    max-width: 100%;
     max-height: 25vh;
     object-fit: cover;
     object-position: top;
@@ -262,7 +257,7 @@
   }
 
   .secondary .numberTwo img {
-    max-width: 45vw;
+    max-width: 100%;
     max-height: 25vh;
     object-fit: cover;
     object-position: center;
@@ -276,6 +271,14 @@
     font-size: 1em;
   }
 
+  hr {
+    height: 0.35em;
+  }
+
+  .container .secondary hr {
+    width: 60%;
+  }
+
   .container span {
     font-style: italic;
     font-size: 0.75em;
@@ -284,16 +287,16 @@
 
   .container .secondary {
     max-width: 100vw;
-    margin: 1.75em;
+    margin: 2em;
     gap: 1.5em;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container .title {
-    min-height: 15vh;
+    min-height: 20vh;
   }
- 
+
   .container .title .logo-title img {
     top: 2.5em;
     left: 2em;
@@ -304,20 +307,47 @@
   }
 
   .container .main {
-    max-width: 100%;
-    margin: 2em;
+    width: 100%;
+    
   }
 
   .container .main .content-main {
-    width: 100%;
-    margin: 0 auto;
-    gap: .5em;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0 2em;
+    gap: 0.5em;
   }
 
   .container .secondary {
     max-width: 100vw;
     margin: 2em;
-   
+  }
+  
+  .secondary .numberOne {
+    height: auto;
+    gap: 0.5em;
+    margin: 0;
+  }
+  .secondary .numberTwo {
+    height: auto;
+    gap: 0.5em;
+    margin: 0;
+  }
+
+  .secondary .numberOne img {
+    max-width: 100%;
+    max-height: 25vh;
+    object-fit: cover;
+    object-position: top;
+    padding: 0;
+  }
+
+  .secondary .numberTwo img {
+    max-width: 100%;
+    max-height: 25vh;
+    object-fit: cover;
+    object-position: center;
+    padding: 0;
   }
 
   .container-footer .alrights {
@@ -333,7 +363,7 @@
 
 @media screen and (min-width: 1024px) {
   .container .title {
-    min-height: 13vh;
+    min-height: 24vh;
   }
 
   .container .title .art-title img {
@@ -345,15 +375,26 @@
     left: 2em;
   }
   .container .main {
-    margin: 3em;
+    margin: 3em 3em 0;
+  }
+
+  .container .main .content-main {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0 3em;
+    gap: 0.5em;
   }
 
   .content-main img {
-    width: 100vw;
+    width: 100%;
     height: auto;
     object-fit: cover;
     object-position: center;
   }
 
-
+  .container .secondary {
+    max-width: 100vw;
+    margin: 3em;
+    gap: 1.5em;
+  }
 }
